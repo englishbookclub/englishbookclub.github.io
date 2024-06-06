@@ -1,0 +1,386 @@
+.naslov {
+  font-family: "Sedan", serif;
+  text-align: center;
+  color: #2626a1;
+}
+
+.zasto {
+  width: 75%;
+  height: 100%;
+  background-color: #009699;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid white;
+}
+
+.novidiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.abc {
+  border: 5px solid black;
+  height: 500px;
+  width: 70%;
+}
+
+.Zasto2 {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.activator {
+  height: 350px;
+  width: 200px;
+}
+
+.opisavatar {
+  font-size: 15px;
+}
+
+.kont {
+  width: 100%;
+}
+
+html {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+p {
+  text-color: white;
+}
+
+center {
+  background-color: #d4bdba;
+  color: white;
+}
+
+.navigacija {
+  width: 100%;
+  background-color: #4d7e8f;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 1px;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  width: 33%;
+  text-align: center;
+}
+
+.mob a {
+  font-size: 16px;
+  font-weight:bold;
+}
+
+.a {
+  justify-content: space-evenly;
+  color: #000000;
+}
+
+.tab {
+  width: 14%;
+}
+
+body {
+  background-color: #80bbf9;
+}
+
+.navbar a:hover {
+  background-color: #ffffff;
+}
+
+.navbar a.active {
+  background-color: #05e2ff;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+    text-align: left
+  }
+
+  .abc {
+    max-width: 130px;
+    max-height: 250px;
+  }
+
+  .activator {
+    height: 110px;
+    width: 35px;
+  }
+
+  .imeavatar {
+    font-size: 15px;
+  }
+  .imeavatarb{
+    font-size:10px;
+  }
+  .opisavatar{
+    font-size:9px;
+  }
+  .cardnaslov{
+    font-size:15px;
+  }
+  .mob a{
+    font-size:12px;
+  }
+}
+
+.tekst {
+  margin: 20px;
+  text-align: center;
+  font-size: 19px;
+}
+}
+
+
+
+/*------------------LINKOVI----------------------*/
+a {
+  color: #f5f5f5;
+}
+
+a:visited {
+  color: #f5f5f5;
+}
+
+a:hover {
+  background-color: #555555;
+}
+
+a:active {
+  color: #ab908c;
+}
+
+.link {
+  color: #ab908c;
+}
+
+
+/*----------KARTICE-----------------------*/
+
+
+
+.slk {
+  width: 150px;
+  height: 150px;
+}
+
+.card {
+  padding: 10px;
+}
+
+footer {
+  background-color: #30cd2d;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.futer {
+  background-color: #30cd2d;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot {
+  margin: 600px;
+}
+
+.lik {
+  font-size: 13px;
+  text-align: right;
+  width: 75%;
+}
+
+.kartica {
+  width: 100%;
+  max-width: 700px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.kartica img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  display: block;
+}
+
+.kartica .content {
+  padding: 2px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 10px solid darkred;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .kartica {
+    width: 90%;
+    /* Adjust width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 250px;
+    /* Adjust width for smaller screens */
+  }
+}
+
+.image-container {
+  background-color: purple;
+}
+
+.image-container img {
+  margin-top: 5%;
+  border-top: 2px solid black;
+}
+
+.ono {
+  text-align: center;
+  border: 10px solid lightgray;
+  background-color: lightblue;
+  width: 75%;
+}
+
+.ishod {
+  text-align: center;
+  border: 10px solid lightgray;
+  background-color: lightblue;
+  width: 75%;
+}
+
+.decotext {
+  font-family: "Sedan", serif;
+}
+
+.centar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dekoracija {
+  border: 10px solid #ad5d5c;
+  background-color: black;
+  color: white;
+  width: 50%;
+}
+
+.image-container2 {
+  background-color: cyan;
+}
+
+.image-container2 img {
+  margin-top: 5%;
+  border-top: 2px solid black;
+}
+
+.kontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin: 0;
+  width: 100%;
+  /* Take up full width */
+}
+
+.veliki {
+  width: 100%;
+}
+
+.jedinica,
+.dvica {
+  width: 50%;
+  /* Set the width of each div */
+  float: left;
+  /* Float the divs to the left */
+  box-sizing: border-box;
+  /* Include padding and border in the width */
+}
+
+#generate-btn {
+  font-size: 1.2em;
+  padding: 10px 10px;
+  color: white;
+  background-color: #8ebfbc;
+}
+
+#generate-btn2 {
+  font-size: 1.2em;
+  padding: 10px 10px;
+  color: white;
+  background-color: #8ebfbc;
+}
+
+#quote {
+  margin-top: 20px;
+}
+
+#translate {
+  color: white;
+  background-color: #ad5d5c;
+}
+
+
+.markomjaulasagna {
+  width: 500px;
+  height: auto;
+}
+
+li {
+  font-size: 30px;
+  text-decoration: bold;
+}
+
+/* ------------------------GALERIJA--------------------------------------*/
+.imgg {
+  border: 4px solid black;
+  height: 700px;
+  width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgg {
+    border: 4px solid black;
+    height: 200px;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .imgg {
+    border: 4px solid black;
+    height: 400px;
+    width: auto;
+  }
+}
