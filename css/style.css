@@ -1,13 +1,13 @@
 .naslov {
   font-family: "Sedan", serif;
   text-align: center;
-  color: #2626a1;
+  color: #4d7e8f;
 }
 
 .zasto {
   width: 75%;
   height: 100%;
-  background-color: #009699;
+  background-color: #313f9e;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -95,7 +95,7 @@ center {
 }
 
 body {
-  background-color: #80bbf9;
+  background-color: #173352;
 }
 
 .navbar a:hover {
