@@ -1,0 +1,30 @@
+
+#generate-btn {
+    background-color: #d500f9;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+
+  #generate-btn:hover {
+    background-color: #aa00c7;
+  }
+
+  .tekst, .lik {
+    text-align: center;
+  }
+
+  .tekst i {
+    font-size: 1.4em;
+    color: #000000;
+  }
+
+  .lik p {
+    font-weight: bold;
+    color: #000000;
+    margin-top: -10px;
+  }
