@@ -320,11 +320,8 @@ footer {
 .jedinica,
 .dvica {
   width: 50%;
-  /* Set the width of each div */
   float: left;
-  /* Float the divs to the left */
   box-sizing: border-box;
-  /* Include padding and border in the width */
 }
 
 #generate-btn {
