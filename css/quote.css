@@ -1,6 +1,6 @@
 
 #generate-btn {
-    background-color: #d500f9;
+    background-color: #006cb4;
     color: white;
     padding: 12px 20px;
     font-size: 16px;
@@ -11,7 +11,7 @@
   }
 
   #generate-btn:hover {
-    background-color: #aa00c7;
+    background-color: #00ccff;
   }
 
   .tekst, .lik {
@@ -20,11 +20,11 @@
 
   .tekst i {
     font-size: 1.4em;
-    color: #000000;
+    color: #ffffff;
   }
 
   .lik p {
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
     margin-top: -10px;
   }
