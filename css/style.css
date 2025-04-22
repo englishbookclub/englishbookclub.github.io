@@ -55,10 +55,6 @@ html {
   box-sizing: border-box;
 }
 
-p {
-  text-color: white;
-}
-
 center {
   background-color: #000000;
   color: white;
@@ -192,7 +188,7 @@ footer {
 
 .futer {
   background-color: #4d7e8f;
-  height: 100px;
+  height: 150px;
   align-items: center;
   justify-content: center;
 }
