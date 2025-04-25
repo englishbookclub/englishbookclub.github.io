@@ -10,41 +10,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <link href="css/quote.css" rel="stylesheet" type="text/css">
   <title>Quotes</title>
-<<<<<<< HEAD
-
-  <style>
-    #generate-btn {
-      background-color: #d500f9;
-      color: white;
-      padding: 12px 20px;
-      font-size: 16px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      margin-bottom: 30px;
-    }
-
-    #generate-btn:hover {
-      background-color: #aa00c7;
-    }
-
-    .tekst, .lik {
-      text-align: center;
-    }
-
-    .tekst i {
-      font-size: 1.4em;
-      color: #ffffff;
-    }
-
-    .lik p {
-      font-weight: bold;
-      color: #ffffff;
-      margin-top: -10px;
-    }
-  </style>
-=======
->>>>>>> 095e7f144f291c8d03fc2650485b3035f560c5c5
 </head>
 
 <body>
@@ -138,27 +103,7 @@
   <script src="js/script.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/materialize.min.js"></script>
-
-  <script>
-    document.getElementById('generate-btn').addEventListener('click', async () => {
-      const quoteText = document.getElementById('quote-text');
-      const quoteAuthor = document.getElementById('quote-author');
-
-      quoteText.innerHTML = "<i>Fetching quote...</i>";
-      quoteAuthor.textContent = "";
-
-      try {
-        const response = await fetch('https://qapi.vercel.app/api/random');
-        const data = await response.json();
-
-        quoteText.innerHTML = `<i>"${data.quote}"</i>`;
-        quoteAuthor.textContent = `~${data.author}`;
-      } catch (error) {
-        quoteText.innerHTML = "<i>Sorry, couldn't load a quote right now.</i>";
-        quoteAuthor.textContent = "";
-      }
-    });
-  </script>
+  <script src="js/quote.js"></script>
 </body>
 
 </html>
